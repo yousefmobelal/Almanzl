@@ -19,7 +19,7 @@ const Product = ({ product }) => {
         <img
           src={product.images[0]?.url}
           alt={product.name}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-contain"
         />
         <span className="absolute top-2 right-2 bg-gray-800 text-white text-xs px-2 py-1 rounded-full">
           {product.category?.name}

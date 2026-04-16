@@ -8,7 +8,7 @@ import ReviewsSlider from "../components/ReviewsSlider";
 
 function HomePage() {
   const { data, error, isLoading } = useGetProductsQuery({
-    page: 8,
+    page: 1,
     limit: 3,
   });
 
