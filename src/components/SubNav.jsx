@@ -12,7 +12,7 @@ export default function SubNav() {
 
   return (
     <div className="w-full bg-secondary text-white">
-      <div className="max-w-7xl mx-auto flex items-center justify-start gap-6 px-6 py-3 overflow-x-auto whitespace-nowrap scrollbar-hide">
+      <div className="mx-auto flex items-center justify-center gap-6 px-6 py-3 overflow-x-auto whitespace-nowrap no-scrollbar">
         {data?.map((category) => {
           const isActive = location.pathname === `/category/${category._id}`;
 
